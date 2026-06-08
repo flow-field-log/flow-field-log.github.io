@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サポート — FLOW FIELD LOG</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, 'Hiragino Sans', 'Yu Gothic', sans-serif; color: #1a1a1a; background: #f8f8f8; }
+    header { background: #0e5165; color: white; padding: 24px; text-align: center; }
+    header a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 13px; }
+    header h1 { font-size: 22px; font-weight: 800; letter-spacing: 1px; margin-top: 8px; }
+    .container { max-width: 720px; margin: 40px auto; padding: 0 24px 80px; }
+    .contact-card {
+      background: #0e5165;
+      color: white;
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .contact-card h2 { font-size: 20px; font-weight: 800; margin-bottom: 8px; }
+    .contact-card p { font-size: 14px; opacity: 0.85; margin-bottom: 20px; line-height: 1.7; }
+    .contact-btn {
+      display: inline-block;
+      background: white;
+      color: #0e5165;
+      font-size: 15px;
+      font-weight: 700;
+      padding: 14px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+    }
+    .note { font-size: 13px; opacity: 0.7; margin-top: 12px; }
+    .faq-card { background: white; border-radius: 16px; padding: 32px; }
+    h2 { font-size: 18px; font-weight: 800; color: #0e5165; margin-bottom: 24px; }
+    .faq-item { border-bottom: 1px solid #f0f0f0; padding: 16px 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q { font-size: 15px; font-weight: 700; color: #1a1a1a; margin-bottom: 8px; display: flex; gap: 10px; }
+    .faq-q::before { content: 'Q'; background: #0e5165; color: white; font-size: 12px; font-weight: 800; width: 22px; height: 22px; border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; }
+    .faq-a { font-size: 14px; line-height: 1.8; color: #555; padding-left: 32px; }
+    footer { text-align: center; padding: 24px; font-size: 12px; color: #aaa; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html">← FLOW トップページ</a>
+    <h1>サポート</h1>
+  </header>
+
+  <div class="container">
+
+    <div class="contact-card">
+      <h2>📧 お問い合わせ</h2>
+      <p>ご不明な点・バグ報告・ご要望はメールでお気軽にどうぞ。<br>2〜3営業日以内にご返信します。</p>
+      <a href="mailto:t6plus@gmail.com" class="contact-btn">メールを送る</a>
+      <div class="note">バグ報告の際はアプリバージョンと端末情報をお知らせください</div>
+    </div>
+
+    <div class="faq-card">
+      <h2>よくある質問</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">データはどこに保存されますか？</div>
+        <div class="faq-a">すべてのデータはお使いの端末内にのみ保存されます。クラウドへのアップロードは行いません。機種変更の際はExcelエクスポートでバックアップを取ることをお勧めします。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">オフラインでも使えますか？</div>
+        <div class="faq-a">はい。FLOWは完全オフラインで全機能が使えます。インターネット接続は課金処理・購入復元時のみ必要です。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">撮影指示を外国語で設定できますか？</div>
+        <div class="faq-a">撮影指示フィールドに直接英語（または任意の言語）で入力できます。ExcelテンプレートをPCで編集してインポートする方法もあります。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">機種変更後にデータを引き継げますか？</div>
+        <div class="faq-a">ExcelエクスポートでPCやサーバーにバックアップしてください。サブスクリプションはアカウントに紐づいているため「購入を復元」で引き継ぎできます。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">サブスクリプションをキャンセルするには？</div>
+        <div class="faq-a">iOS：設定 → Apple ID → サブスクリプション<br>Android：Google Play → お支払いと定期購入 → 定期購入<br>からキャンセルできます。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">電子納品・JACIC対応はどのプランですか？</div>
+        <div class="faq-a">PROプランで対応しています。CALS準拠・SHA-256ハッシュによる改ざん防止・電子黒板の使用が可能です。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">写真のバックアップ方法は？</div>
+        <div class="faq-a">「エクスポート」からExcelまたはPDF形式で出力し、PCや自社サーバーに保存してください。写真はお使いのスマートフォンのフォトライブラリにも自動保存されます。</div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>© 2026 FLOW FIELD LOG. All rights reserved.</footer>
+</body>
+</html>
